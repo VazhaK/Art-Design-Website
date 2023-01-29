@@ -1,0 +1,512 @@
+body{
+    background-color: #ffffff;
+    margin: 0;
+    height: 100%;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.head-cont{
+    width: 1275px;
+    height: 800px;
+    margin-bottom: 0;
+
+}
+
+.box-one{
+    width: 980px;
+    height: 800px;
+    display: flex;
+}
+
+.box-one .black-box{
+    width: 450px;
+    height: 800px;
+    background: #151515;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.black-box .img-two{
+    width: 514px;
+    height: 176px;
+    margin: 0;
+    margin-left: 124px;
+    margin-top: 189px;
+}
+
+.box-one .pic-box{
+    background-image: url("/pic/image-hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 540px;
+    height: 800px;
+    z-index: 1;
+
+}
+
+.pic-box .img-three{
+    width: 514px;
+    height: 176px;
+    margin: 0;
+    margin-top: 189px;
+    margin-left: -322px;
+}
+
+.head-cont p{
+    width: 350px;
+    height: 160px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    color: #444444;
+    float: right;
+    position: relative;
+    bottom: 96vh;
+    right: 10px;
+    z-index: 3;
+}
+
+.arrow{
+    width: 260px;
+    height: 72px;
+    display: flex;
+    float: right;
+    position: relative;
+    bottom: 58.5vh;
+    left: 38vh;
+    z-index: 4;
+}
+
+.arrow .black-rect{
+    width: 204px;
+    height: 72px;
+    background: #151515;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.black-rect h1{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.63636px;
+    color: #ffffff;
+    margin: 0;
+}
+.arrow .orange-rect{
+    width: 56px;
+    height: 72px;
+    background: #D5966C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.orange-rect span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.orange-rect span:after{
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.orange-rect:hover span{
+    padding-left: 20px;
+    opacity: 0.5;
+}
+
+.orange-rect:hover span:after{
+    opacity: 1;
+    right: 0;
+}
+
+.body-cont{
+    width: 1110px;
+    height: 1150px;
+    margin: 0;
+    margin-top: 180px;
+    margin-left: 165px;
+    margin-bottom: 180px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.body-cont .section-text{
+    width: 475px;
+    height: 400px;
+}
+
+.section-text h1{
+    width: 350px;
+    height: 120px;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #151515;
+    margin: 0;
+    margin-top: 60px;
+}
+
+.section-text p{
+    width: 350px;
+    height: 128px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    color: #444444;
+    margin: 0;
+    margin-top: 32px;
+}
+
+.body-cont .body-img-one{
+    width: 635px;
+    height: 400px;
+}
+
+.body-cont .body-img-two{
+    width: 635px;
+    height: 720px;
+    margin-top: 30px;
+}
+.body-cont-two{
+    margin: 0;
+    display: grid;
+    align-content: space-between;
+}
+
+.body-cont-two .body-img-three{
+    width: 445px;
+    height: 313px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.body-cont-two .body-cont-text{
+    width: 445px;
+    height: 377px;
+    background: #151515;
+    margin: 0;
+    margin-left: 30px;
+}
+
+.body-cont-text h1{
+    width: 350px;
+    height: 120px;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+    margin-top: 65px;
+    margin-left: 48px;
+}
+
+.body-cont-text p{
+    width: 350px;
+    height: 96px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin: 0;
+    margin-top: 32px;
+    margin-left: 48px;
+
+}
+.foot-cont-ind{
+    width: 100%;
+    height: 244px;
+    background: #151515;
+    display: flex;
+    align-items: center;
+
+}
+
+.foot-cont-ind .footer-text-ind{
+    width: 1110px;
+    height: 84px;
+    margin-left: 165px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text-ind p{
+    width: 430px;
+    height: 84px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin: 0;
+    margin-left: -140px;
+}
+
+.foot-cont-loc{
+    width: 100%;
+    height: 244px;
+    background: #D5966C;
+    display: flex;
+    align-items: center;
+
+}
+
+.foot-cont-loc .footer-text-loc{
+    width: 1110px;
+    height: 84px;
+    margin-left: 165px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text-loc p{
+    width: 430px;
+    height: 84px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #151515;
+    margin: 0;
+    margin-left: -140px;
+}
+
+.social-net{
+    width: 100px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.fb-pic{
+    width: 20px;
+    height: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.fb-pic:hover{
+    opacity: 0.5;
+}
+
+.ig-pic{
+    width: 20px;
+    height: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.ig-pic:hover{
+    opacity: 0.5;
+}
+
+.twt-pic{
+    width: 20px;
+    height: 17px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.twt-pic:hover{
+    opacity: 0.5;
+}
+.head-cont-loc{
+    width: 100%;
+    height: 600px;
+    margin-bottom: 0px;
+}
+
+.head-cont-loc img{
+    width: 100%;
+    height: 600px;
+}
+
+.back-to-main-page{
+    width: 264px;
+    height: 72px;
+    position: relative;
+    bottom: 91.9vh;
+    left: 20.5vh;
+    display: flex;
+}
+
+.back-to-main-page-first{
+    width: 56px;
+    height: 72px;
+    background: #D5966C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.back-to-main-page-first span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.back-to-main-page-first span:after{
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.back-to-main-page-first:hover span{
+    padding-right: 20px;
+    opacity: 0.5;
+}
+
+.back-to-main-page-first:hover span:after{
+    opacity: 1;
+    right: 0;
+}
+
+.back-to-main-page-first img{
+    width: 8px;
+    height: 24px;
+    margin: 0;
+}
+
+.back-to-main-page-second{
+    width: 208px;
+    height: 72px;
+    background: #151515;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+.back-to-main-page-second h1{
+    width: 145px;
+    height: 24px;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.63636px;
+    color: #FFFFFF;
+    margin: 0;
+
+}
+.nav-location{
+    width: 100%;
+    height: 548px;
+    background: #151515;
+    display: flex;
+    align-items: center;
+}
+
+.nav-mid-section{
+    width: 1110px;
+    height: 313px;
+    margin-left: 165px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-mid-section h1{
+    width: 350px;
+    height: 140px;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 70px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.nav-mid-section-two h1{
+    width: 350px;
+    height: 36px;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #D5966C;
+    margin: 0;
+    
+}
+
+.nav-mid-section-two h2{
+    width: 445px;
+    height: 96px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin: 0;
+    display: grid;
+    margin-top: 24px;
+}
+
+.nav-mid-section-two p{
+    width: 540px;
+    height: 128px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin: 0;
+    margin-top: 32px;
+}
+
